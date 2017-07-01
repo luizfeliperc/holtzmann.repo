@@ -16,7 +16,7 @@
 
 <addon id="plugin.video.Holtz-iptv"
        name="Holtz IPTV"
-       version="1.0"
+       version="1.1"
        provider-name="Luiz Felipe RC">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -40,8 +40,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
+    <summary lang="en"> Filmes, Desenhos e Animes</summary>
+    <description lang="en">Somos apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. NÃ£o somos responsÃ¡veis pelos arquivos aqui encontrados.</description>
     <platform>all</platform>
   </extension>
 </addon>
