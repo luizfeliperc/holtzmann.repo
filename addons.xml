@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="holtzmann.repo" name="Holtzmann repository" version="0.0.3" provider-name="luizfeliperc">
+<addon id="holtzmann.repo" name="Holtzmann repository" version="1.0.0" provider-name="luizfeliperc">
 	<extension point="xbmc.addon.repository" name="Holtzmann Add-on Repository">
 		<info compressed="false">http://raw.github.com/luizfeliperc/holtzmann.repo/master/addons.xml</info>
 		<checksum>http://raw.github.com/luizfeliperc/holtzmann.repo/master/addons.xml.md5</checksum>
@@ -16,7 +16,7 @@
 
 <addon id="plugin.video.Holtz-iptv"
        name="Holtz IPTV"
-       version="1.1"
+       version="1.2"
        provider-name="Luiz Felipe RC">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -29,7 +29,7 @@
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
@@ -40,9 +40,16 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"> Filmes, Desenhos e Animes</summary>
-    <description lang="en">Somos apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. NÃ£o somos responsÃ¡veis pelos arquivos aqui encontrados.</description>
+    <summary lang="en">Filmes, Desenhos e Animes</summary>
+    <description lang="en">NÃ³s somos apenas um agregador de links igual ao Google. NÃ£o somos responsÃ¡veis pelos links encontrados.</description>
     <platform>all</platform>
+	<assets>
+	<icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshots/home.png</screenshot>
+    <screenshot>resources/screenshots/movies.png</screenshot>
+    <screenshot>resources/screenshots/series.png</screenshot>
+	</assets>
   </extension>
 </addon>
 </addons>

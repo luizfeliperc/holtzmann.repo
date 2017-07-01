@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="holtzmann.repo" name="Holtzmann repository" version="0.0.3" provider-name="luizfeliperc">
+<addon id="holtzmann.repo" name="Holtzmann repository" version="1.0.0" provider-name="luizfeliperc">
 	<extension point="xbmc.addon.repository" name="Holtzmann Add-on Repository">
 		<info compressed="false">http://raw.github.com/luizfeliperc/holtzmann.repo/master/addons.xml</info>
 		<checksum>http://raw.github.com/luizfeliperc/holtzmann.repo/master/addons.xml.md5</checksum>
